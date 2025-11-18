@@ -247,7 +247,7 @@ class MainWindow(QMainWindow):
         proxy_layout.addWidget(proxy_desc)
         
         self.proxy_input = QLineEdit()
-        self.proxy_input.setPlaceholderText("http://proxy-url:port")
+        self.proxy_input.setPlaceholderText("proxy-url:port")
         proxy_layout.addWidget(self.proxy_input)
         
         proxy_btn_layout = QHBoxLayout()

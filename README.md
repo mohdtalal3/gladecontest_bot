@@ -56,7 +56,7 @@ python gui_app.py
 
 1. **Click "Select CSV File"** and choose your accounts file
 2. **(Optional) Configure Proxy**:
-   - Enter your auto-rotating proxy URL in the format: `http://username:password@proxy.com:port`
+   - Enter your auto-rotating proxy URL in the format: `username:password@proxy.com:port`
    - Click "Test Proxy" to verify it's working
    - Leave empty to use direct connection
 3. **(Optional) Configure Threading**:
@@ -122,7 +122,7 @@ Each output file includes:
 ### Proxy Support
 - Configure auto-rotating proxy URLs for enhanced privacy
 - Supports HTTP/HTTPS proxies with authentication
-- Format: `http://username:password@proxy.com:port`
+- Format: `username:password@proxy.com:port`
 - Test proxy functionality before processing
 - Each thread uses the configured proxy
 - Leave empty for direct connection
@@ -230,10 +230,10 @@ The bot supports auto-rotating proxies to help distribute requests and avoid rat
 **Proxy URL Formats:**
 ```
 # Basic HTTP proxy
-http://proxy.example.com:8080
+proxy.example.com:8080
 
 # Proxy with authentication
-http://username:password@proxy.example.com:8080
+username:password@proxy.example.com:8080
 
 # HTTPS proxy
 https://username:password@proxy.example.com:8080
